@@ -4,7 +4,8 @@
   "description": "Rest API's Test With Mocha&Chai",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "test": "mocha"
   },
   "keywords": [
     "Mocha",
@@ -17,5 +18,10 @@
     "express": "^4.17.1",
     "joi": "^17.4.0",
     "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.4.0"
   }
 }
