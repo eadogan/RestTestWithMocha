@@ -1,0 +1,17 @@
+{
+  "name": "resttestwithmocha",
+  "version": "1.0.0",
+  "description": "Rest API's Test With Mocha&Chai",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Mocha",
+    "Chai",
+    "Rest",
+    "API"
+  ],
+  "author": "only me :)",
+  "license": "ISC"
+}
