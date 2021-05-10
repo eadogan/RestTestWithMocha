@@ -4,14 +4,18 @@
   "description": "Rest API's Test With Mocha&Chai",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "keywords": [
     "Mocha",
     "Chai",
-    "Rest",
-    "API"
+    "RestAPI"
   ],
   "author": "only me :)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "nodemon": "^2.0.7"
+  }
 }
