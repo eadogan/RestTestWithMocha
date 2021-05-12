@@ -87,6 +87,6 @@ app.delete('/api/tasks/:id', async (req, res) => {
 
 
 const port = process.env.PORT || 3000
-app.listen(port, () => {
+module.exports = app.listen(port, () => {
     console.log(`Server is on port ${port}`)
 })
